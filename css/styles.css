@@ -7,10 +7,28 @@ header img {
     z-index: -1;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 .navigation {
     width: 55%;
     float: right;
 }
+
+.content {
+    width: 50%;
+    float: right;
+    text-align: center;
+    color: lightslategrey;
+}
+
+.about-me {
+    margin:100px;
+    text-align: left;
+}
+
 
 @media only screen and (max-width: 800px){
     header img {
@@ -19,7 +37,19 @@ header img {
         position:relative;
     }
 
+    h1 {
+        margin-bottom: 20px;
+    }
+    
     .navigation {
         width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .about-me {
+        margin:25px;
     }
 }
