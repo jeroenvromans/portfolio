@@ -24,11 +24,18 @@ h1 {
     color: lightslategrey;
 }
 
-.about-me {
+.about-me, .projects, .skills, .contact{
     margin:100px;
     text-align: left;
 }
 
+.skills li{
+    list-style-type: none;
+}
+
+.hide {
+    display:none;
+}
 
 @media only screen and (max-width: 800px){
     header img {
@@ -49,7 +56,7 @@ h1 {
         width: 100%;
     }
 
-    .about-me {
+    .about-me, .projects, .skills, .contact {
         margin:25px;
     }
 }

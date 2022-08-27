@@ -22,10 +22,10 @@
                     <i id="nav-toggle" class="fa-solid fa-bars"></i>
                 </div>
                 <ul id='nav-list' class="nav-list">
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a id="menu-about-me" href="#">About Me</a></li>
+                    <li><a id="menu-projects" href="#">Projects</a></li>
+                    <li><a id="menu-skills" href="#">Skills</a></li>
+                    <li><a id="menu-contact" href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,13 +35,35 @@
         <img src="../img/jeroen.jpeg">
     </header>
     <section class="content">
-        <div class="about-me">
+        <div id="about me" class="about-me">
             <h1>Jeroen Vromans</h1>
             <h2>About me</h2>
             <p>Hi! My name is Jeroen Vromans and I'm an amateur webdeveloper. I do this mostly out of fun and not as a professional.</p>
             <p>This portfolio is created as an assigment on Codecademy.</p>
         </div>
+        <div id="projects" class="projects hide">
+            <h2>Projects</h2>
+            <ul>
+                <li>Aegon.nl (in a previous life)</li>
+                <li>Aegon intranet (in a previous life)</li>
+                <li>Portfolio</li>
+                <li>Foodie (in progress</li>
+            </ul>
+        </div>
+        <div id="skills" class="skills hide"> 
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fa-brands fa-html5"></i> HTML</li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                <li><i class="fa-brands fa-js"></i> Javascript</li>
+                <li><i class="fa-brands fa-github"></i> Github</li>
+            </ul>
+        </div>
+        <div id="contact" class="contact hide">
+            Under construction
+        </div>
     </section>
     <script src="../js/nav.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
 </body>
 </html>
